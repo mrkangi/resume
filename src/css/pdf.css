@@ -94,8 +94,17 @@ ul.b-info-list {
 ul.b-info-list > li {
     margin: 0 38px;
     padding-top: 40px;
+    font-size: 14px;
 }
 ul.b-subinfo-list > li {
+    margin-top: 20px;
+    margin-left: 3px;
+    font-size: 9px;
+}
+ul.b-skill-list > li {
+    margin-top: 10px;
+}
+ul.b-skill-list > li.first {
     margin-top: 20px;
 }
 ul.d-info-list {}
@@ -108,7 +117,8 @@ ul.d-subinfo-list > li {
 p.brief {
     font-size: 14px;
 }
-.li-style {
+.li-style,
+.li-style-light {
     display: inline-block;
     width: 2.6em;
     height: 2.6em;
@@ -119,6 +129,10 @@ p.brief {
     margin-right: 10px;
     letter-spacing: 0px;
     font-size: 0.8em
+}
+.li-style-light {
+    background: #fff;
+    color: #263238;
 }
 .white {
     color: #fff;
@@ -131,6 +145,16 @@ p.brief {
     margin-top: 15px;
     font-size: 14px;
     line-height: 20px;
+}
+.progress-bar {
+    height: 8px;
+    width: 220px;
+    color: #272c32;
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 40px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 /*打印样式*/
