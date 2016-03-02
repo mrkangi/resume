@@ -21,7 +21,7 @@ ol {
     list-style: none;
 }
 html {
-    font-family: "微软雅黑";
+    font-family: '微软雅黑';
 }
 
 /*主框架*/
@@ -156,7 +156,10 @@ p.brief {
     border-radius: 8px;
     overflow: hidden;
 }
-
+span.emph{
+	font-weight: bold;
+	text-decoration:underline;
+}
 /*打印样式*/
 
 @media print {
