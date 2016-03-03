@@ -32,6 +32,7 @@ div#pdf {
     margin: 100px auto;
     box-shadow: 0 0 20px 5px #888;
     overflow: hidden;
+    background: #F1EEE8;
 }
 
 /*个人信息*/
@@ -49,7 +50,6 @@ div#d-info {
     width: 610px;
     float: left;
     color: #666766;
-    background: #F1EEE8;
 }
 
 /*基本信息*/
