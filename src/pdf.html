@@ -4,10 +4,11 @@
 <head>
     <title>Mrkangi's Resume</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8" /> 
+    <meta charset="utf-8" />
     <link href="css/pdf.css" rel="stylesheet" />
     <link href="css/progress-bar.css" rel="stylesheet" />
     <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/iconfont.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -18,14 +19,14 @@
                     <img src="img/head.png" />
                 </div>
                 <h1 class="name">康 进</h1>
-                <span class="position">应聘职位：Web前端工程师</span>
+                <span class="position">求职意向：Web前端工程师</span>
                 <div id="b-info">
                     <ul class="b-info-list">
                         <li>
                             <ul class="b-subinfo-list">
                                 <h2 class="md-list-title"><span class="li-style"><i class="fa fa-user"></i></span>简介</h2>
                                 <li>
-                                    <p class="brief">我是一名来自<span class="emph">长沙理工大学计算机科学与技术专业</span>的应届生。我热爱计算机技术，并且热衷于通过计算机来解决生活中遇到的问题。</p>
+                                    <p class="brief">我是一名来自<span class="emph">长沙理工大学计算机科学与技术专业</span>的应届生。我热爱计算机技术，经常通过计算机来解决生活中的问题，并且对前端技术有着浓厚的兴趣。</p>
                                 </li>
                                 <li>
                                     <p class="brief">随着HTML5的定稿、CSS3的逐渐强大与ES6正式版的发布，Web逐渐被赋予了新的使命，我对前端的理解也从简单的信息展示转变为用户与服务提供商交互的接口。</p>
@@ -44,20 +45,20 @@
                             <ul class="b-subinfo-list b-skill-list">
                                 <h2 class="md-list-title"><span class="li-style"><i class="fa fa-diamond"></i></span>专业技能</h2>
                                 <li class="first">
-                                    <span class="li-style-light"><i class="fa fa-book"></i></span>JavaScript
+                                    <span class="li-style-light"><i class="iconfont icon-javascript"></i></span>JavaScript
                                     <div class="progress-bar" data-skillVal="80"></div>
                                 </li>
-                                <li><span class="li-style-light"><i class="fa fa-book"></i></span>HTML&amp;CSS
+                                <li><span class="li-style-light"><i class="iconfont icon-html"></i></span>HTML&amp;CSS
                                     <div class="progress-bar" data-skillVal="70"></div>
                                 </li>
-                                <li><span class="li-style-light"><i class="fa fa-book"></i></span>ASP.NET
+                                <li><span class="li-style-light"><i class="iconfont icon-net"></i></span>ASP.NET
                                     <div class="progress-bar" data-skillVal="65"></div>
                                 </li>
-                                <li><span class="li-style-light"><i class="fa fa-book"></i></span>jQuery
+                                <li><span class="li-style-light"><i class="iconfont icon-jquery"></i></span>jQuery
                                     <div class="progress-bar" data-skillVal="70"></div>
                                 </li>
                                 <li>
-                                    <span class="li-style-light"><i class="fa fa-book"></i></span>Node
+                                    <span class="li-style-light"><i class="iconfont icon-nodejs"></i></span>Node.js
                                     <div class="progress-bar" data-skillVal="35"></div>
                                 </li>
                             </ul>
@@ -67,32 +68,60 @@
             </div>
             <div id="d-info">
                 <ul class="d-info-list">
+                    <!--教育经历-->
+                    <li>
+                        <h1 class="lg-list-title"><span class="li-style"><i class="fa fa-graduation-cap white"></i></span>教育经历</h1>
+                        <ul class="d-subinfo-list">
+                            <li>
+                                <h3>长沙理工大学「本科」</h3>
+                                <div class="d-content">
+                                    <span class="fa fa-institution"> 长沙理工大学 </span>
+                                    <span class="fa fa-calendar"> 2012年9月 - 至今 </span>
+                                    <ul>
+                                        <li>软件著作权*2（均为第一发明人）、校二等奖学金*2；</li>
+                                        <li>担任学生工作部网络组助理，负责维护学生工作部网站后台。</li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
                     <!--项目经验-->
                     <li>
-                        <h1 class="lg-list-title"><span class="li-style"><i class="fa fa-suitcase white"></i></span>项目经验</h1>
+                        <h1 class="lg-list-title"><span class="li-style"><i class="fa fa-suitcase white"></i></span>项目经历</h1>
                         <ul class="d-subinfo-list">
                             <li>
                                 <h3>中冶长天烧结、球团能耗分析计算软件</h3>
                                 <div class="d-content">
                                     <span class="fa fa-institution"> 中冶长天国际工程有限责任公司 </span>
-                                    <span class="fa fa-calendar"> 2014年3月 </span>
-                                    <p>项目主要是根据企业所提供的能耗计算理论模型实现一个能耗计算软件，采用WinForm+ADO.NET实现，整体框架采用MVC模式。我主要参与了前期的需求分析、系统结构设计与部分编码工作。</p>
+                                    <span class="fa fa-calendar"> 2014年3月 - 2014年7月</span>
+                                    <ul>
+                                        <li>工程计算软件，涉及较多的化学方程式和公式嵌套，负责「球团项目」的设计实现；</li>
+                                        <li>C/S 架构，使用 Winform + ADO.NET 实现，处理多层级的复杂计算，采用 XML 和 DB 存储数据；</li>
+                                        <li>亮点：由于需求只有一张 Excel 表，表内包含 200 多个公式，近千变量，人工手写麻烦且易错，我们通过编写代码生成器，读取需求 Excel 内公式来自动生成计算方法和计算类。</li>
+                                    </ul>
                                 </div>
                             </li>
                             <li>
                                 <h3>长沙理工大学党课评教系统</h3>
                                 <div class="d-content">
                                     <span class="fa fa-institution"> 长沙理工大学 </span>
-                                    <span class="fa fa-calendar"> 2013年10月 </span>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    <span class="fa fa-calendar"> 2013年10月 - 2013年11月</span>
+                                    <ul>
+                                        <li>根据长沙理工大学组织部需求定制的评教及管理系统，负责Excel导入导出、课程管理、教师管理以及评教结果展示等部分；</li>
+                                        <li>基于B/S架构，系统包含了学生评教部分以及教师管理部分，教师管理部分实现了Excel数据上传以及评教结果统计。</li>
+                                    </ul>
                                 </div>
                             </li>
                             <li>
                                 <h3>积分宝-积分在线交易平台</h3>
                                 <div class="d-content">
                                     <span class="fa fa-institution"> - </span>
-                                    <span class="fa fa-calendar"> 2014年9月 </span>
-                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                                    <span class="fa fa-calendar"> 2014年7月 - 2014年9月</span>
+                                    <ul>
+                                        <li>参赛项目，一个向用户提供跨论坛交换积分的平台，负责项目的设计与规划、主要功能的开发；</li>
+                                        <li>基于B/S架构，系统包含了积分的交换、购买等功能，平台实现了自定义交互协议；</li>
+                                        <li>亮点：由于论坛之间积分价值的差异性，很难找到一个平衡点进行交易，我们通过用户定价解决了该问题。</li>
+                                    </ul>
                                 </div>
                             </li>
                         </ul>
@@ -102,27 +131,24 @@
                         <h1 class="lg-list-title"><span class="li-style"><i class="fa fa-trophy white"></i></span>获奖经历</h1>
                         <ul class="d-subinfo-list">
                             <li>
-                                <h3>中冶长天烧结、球团能耗分析计算软件</h3>
+                                <h3>第九届中国大学生计算机设计大赛 二等奖</h3>
                                 <div class="d-content">
-                                    <span class="fa fa-institution"> 中冶长天国际工程有限责任公司 </span>
+                                    <span class="fa fa-institution"> 长沙理工大学 </span>
                                     <span class="fa fa-calendar"> 2014年3月 </span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                                 </div>
                             </li>
                             <li>
-                                <h3>长沙理工大学党课评教系统</h3>
+                                <h3>湖南省“蓝桥杯”ACM应用开发类 二等奖</h3>
                                 <div class="d-content">
                                     <span class="fa fa-institution"> 长沙理工大学 </span>
                                     <span class="fa fa-calendar"> 2013年10月 </span>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
                             </li>
                             <li>
-                                <h3>积分宝-积分在线交易平台</h3>
+                                <h3>CET4</h3>
                                 <div class="d-content">
                                     <span class="fa fa-institution"> - </span>
                                     <span class="fa fa-calendar"> 2014年9月 </span>
-                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
                                 </div>
                             </li>
                         </ul>

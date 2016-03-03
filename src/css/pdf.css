@@ -38,7 +38,7 @@ div#pdf {
 
 div#p-info {
     width: 350px;
-    background: #263238;
+    background: #33939a;
     float: left;
     color: white;
 }
@@ -48,19 +48,20 @@ div#p-info {
 div#d-info {
     width: 610px;
     float: left;
-    color: #263238;
+    color: #666766;
+    background: #F1EEE8;
 }
 
 /*基本信息*/
 
 div#p-info #b-info {
-    background: #37474f;
+    background: #39a4ac;
     margin-top: 50px;
 }
 .head-img {
     width: 180px;
     height: 180px;
-    border: 5px solid #37474f;
+    border: 5px solid #39a4ac;
     border-radius: 180px;
     margin: 0 auto;
     margin-top: 50px;
@@ -99,7 +100,7 @@ ul.b-info-list > li {
 ul.b-subinfo-list > li {
     margin-top: 20px;
     margin-left: 3px;
-    font-size: 9px;
+    font-size: 12px;
 }
 ul.b-skill-list > li {
     margin-top: 10px;
@@ -125,41 +126,58 @@ p.brief {
     line-height: 2.6em;
     text-align: center;
     border-radius: 2.6em;
-    background: #263238;
+    background: #33939a;
     margin-right: 10px;
     letter-spacing: 0px;
     font-size: 0.8em
 }
 .li-style-light {
     background: #fff;
-    color: #263238;
+    color: #39a4ac;
 }
 .white {
     color: #fff;
 }
 .d-content > span {
     color: #90a4ae;
-    font-size: 11.6px;
+    font-size: 12px;
 }
-.d-content > p {
+.d-content > p,
+.d-content > ul {
     margin-top: 15px;
     font-size: 14px;
     line-height: 20px;
 }
+
+/*
+.d-content > ul {
+    list-style: circle;
+}
+*/
+
+.d-content > ul> li:before {
+    content: "\f006";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.5em;
+    width: 1.5em;
+    color: #33939a;
+}
 .progress-bar {
     height: 8px;
     width: 220px;
-    color: #272c32;
-    background-color: white;
+    color: #33939a;
+    background-color: #fff;
     margin-top: 5px;
     margin-left: 40px;
     border-radius: 8px;
     overflow: hidden;
 }
-span.emph{
-	font-weight: bold;
-	text-decoration:underline;
+span.emph {
+    font-weight: bold;
+    text-decoration: underline;
 }
+
 /*打印样式*/
 
 @media print {
