@@ -68,7 +68,8 @@ div#p-info #b-info {
     overflow: hidden;
 }
 .name,
-.position {
+.position,
+.gpa {
     display: block;
     text-align: center;
 }
@@ -77,7 +78,8 @@ div#p-info #b-info {
     font-size: 28px;
     font-weight: bold;
 }
-.position {
+.position,
+.gpa {
     margin-top: 10px;
     font-size: 18px;
 }
